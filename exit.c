@@ -10,6 +10,6 @@ exit();
 }
 else
 {
-continue();
+printf("the character is %c",c);
 }
 }
