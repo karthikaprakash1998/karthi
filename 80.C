@@ -1,14 +1,17 @@
 #include<stdio.h>
 void main()
 {
-int x;
+int n,i,r;
 printf("enter the value");
-for(i=0;i<n;i++);
-scanf("%d",&x[i]);
-for(i=0;i<n;i++)
+scanf("%d",&n);
+while(n>0)
 {
-if(x[i]%2!==0)
+r=n%10;
+if(r%2==1)
 {
-printf("%d",x[i]);
+    printf("odd numbers are %d",r);
 }
+n=n/10;
+}
+
 }
