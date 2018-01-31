@@ -5,8 +5,8 @@ int x,y,z;
 printf("enter 2 numbers");
 scanf("%d%d",&x,&y);
 z=x*y;
-sqrt(z);
-if((x*y)==(sqrt(z)))
+  printf("%d",z);
+if(x==y)
 {
 printf("yes");
 }
