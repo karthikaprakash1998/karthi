@@ -2,19 +2,28 @@
 #include<string.h>
 void main()
 {
-int x;
-char str[100];
-printf("enter the string");
-gets(str);
-x=strlen(str);
-y=x/2;
-if(y%2==0)
+int count=0,i,d;
+char str[100]="aashika",c='*';
+/*printf("enter the string");
+  scanf("%c",&str);*/
+  for(i=0;str[i]!='\0';i++)
+  {
+      count++;
+  }
+printf("%d",count);
+d=count/2;
+if(d%2==0)
 {
-y='*';
-y+1='*';
+    str[d]=c;
+    str[d+1]=c;
+    for(i=0;str[i]!='\0';i++)
+    printf("%c",str[i]);
+    
 }
 else
 {
-y='*';
+    str[d]=c;
+    for(i=0;str[i]!='\0';i++)
+    printf("%c",str[i]);
 }
 }
