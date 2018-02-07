@@ -13,9 +13,9 @@ printf("%c",s[i]);
 }
 for(i=0;s[i]='\0';i++)
 {
-if(s[i]==1)
+if(s[i]%2==1)
 {
-print("%c",s[i]);
+printf("%c",s[i]);
 }
 }
 }
