@@ -1,13 +1,16 @@
+
 #include<stdio.h>
 void main()
 {
-int n,i,sum=0;
+int n,i,a[10],sum=0;
 printf("enter the limit");
 scanf("%d",&n);
 printf("enter the number");
 for(i=0;i<n;i++)
 {
-sum=sum+i;
+  scanf("%d",&a[i]);
+
+sum=sum+a[i];
 }
 printf("%d",sum);
 }
