@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int n,temp=1;
+int n,temp=1,n1;
 printf("enter the value");
 scanf("%d",&n);
 while(n>0)
